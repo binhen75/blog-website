@@ -4,8 +4,7 @@
 
     <h1> Are you shure you want to delete {{ post.title }} post ?</h1>
     <form action="" method="post">{% csrf_token %}
-        {{ form }}
-        <input type="submit" value="Update">
+        <input type="submit" value="Delete">
     </form>
 
 {% endblock content %}
